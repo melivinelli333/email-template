@@ -1,0 +1,75 @@
+/* this media querry is for the md screen size
+for bootstrap grid.  basically when the screen
+is => 768px */
+@media (min-width: 768px){
+
+  .show-and-hide-nav {
+      /* This makes my collapse nav show up
+      when my screen is at a medium breakpoint
+      this is so my nav can be collapsed when the screen is smaller  */
+      display: block!important;
+  }
+  }
+  
+  #search-bar{
+      position: relative;
+      width: calc(100% - 50px);
+      margin-bottom: 20px;
+      margin-top:20px;
+  }
+  .nav-column{
+      justify-content: right;
+      
+  }
+  .fontsize-to-from{
+      font-size: 10px;
+  }
+  .navigation{
+  font-size: small;
+  }
+  button.compose{
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left: 20px;
+  }
+  .col-lg-2{
+    background-color:rgb(239, 222, 205);
+}
+  .col-lg-6{
+    background-color: rgb(176,224,230);
+  }
+  .icon-search {
+    color: #bdbdbd;
+    position: absolute;
+    z-index: 999;
+    font-size: 24px;
+}
+ .form-control{
+   justify-content: flex-end;
+ }
+.icons{
+  position: relative;
+  left: 420px;
+  bottom: 30px;
+  opacity: 0.7;
+}
+.panel-body{
+  position: relative;
+  left: 100px;
+}
+.ppr-clip{
+  position: relative;
+  right: 25px;
+  bottom: 50px;
+  opacity: 0.5;
+}
+.reply-button{
+  position: relative;
+  left: 246px;
+  bottom: 62px;
+}
+.fa-search{
+  opacity: 0.5;
+  position: relative;
+  right: 30px;
+}
