@@ -9,44 +9,43 @@ is => 768px */
       this is so my nav can be collapsed when the screen is smaller  */
       display: block!important;
   }
-  }
   
-  #search-bar{
+  
+  #search-bar {
       position: relative;
       width: calc(100% - 50px);
       margin-bottom: 20px;
       margin-top:20px;
   }
-
-  .nav-column{
+  
+  .nav-column {
       justify-content: right;
-      
-  }
-
-  .fontsize-to-from{
+   }
+  
+  .fontsize-to-from {
       font-size: 10px;
   }
-
-  .navigation{
+  
+  .navigation {
   font-size: small;
   }
-
-  button.compose{
+  
+  button.compose {
     margin-top:10px;
     margin-bottom:20px;
     margin-left: 20px;
   }
-
-  .col-lg-2{
+  
+  .col-lg-2 {
     background-color:rgb(239, 222, 205);
     min-height: 100vh;
 }
-
-  .col-lg-6{
+  
+  .col-lg-6 {
     background-color: rgb(176,224,230);
     min-height: 100vh;
 }
-
+  
   .icon-search {
     color: #bdbdbd;
     position: absolute;
@@ -54,37 +53,45 @@ is => 768px */
     font-size: 24px;
 }
 
- .form-control{
+ .form-control {
    justify-content: flex-end;
- }
+}
 
-.icons{
-  position: relative;
+.d-flex {
+  display: flex;
+  justify-content: right;
   left: 420px;
   bottom: 30px;
   opacity: 0.7;
-}
+  margin-right: 30px;
+ }
 
-.panel-body{
-  position: relative;
+.panel-body {
+  position: static;
   left: 100px;
+  margin-top: 30px;
 }
-
-.ppr-clip{
+  
+.ppr-clip {
   position: relative;
   right: 25px;
   bottom: 50px;
   opacity: 0.5;
 }
-
-.reply-button{
+  
+.reply-button {
   position: relative;
   left: 246px;
   bottom: 62px;
 }
-
-.fa-search{
+  
+.fa-search {
   opacity: 0.5;
   position: relative;
   right: 30px;
 }
+ 
+  .msdq {
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
